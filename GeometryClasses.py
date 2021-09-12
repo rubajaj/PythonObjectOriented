@@ -1,4 +1,3 @@
-
 class Circle:
     pi = 3.14
 
@@ -17,3 +16,10 @@ class triange:
         
     def get_area(self):
         return 0.5 * self.length * self.height
+
+class square:
+    def __init__(self,length) -> None:
+        self.length = length
+
+    def get_area(self):
+        return self.length**2
